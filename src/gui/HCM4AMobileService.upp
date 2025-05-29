@@ -1,0 +1,27 @@
+uses
+	CtrlLib,
+	plugin/jpg,
+	plugin/jpg/lib,
+	Functions4U;
+
+file
+	HcmTerrain.h,
+	EditorLayout.h,
+	Common.h,
+	GisCountries.h,
+	main.cpp,
+	GisMap.cpp,
+	GisMap.h,
+	GisObjects.cpp,
+	GisObjects.h,
+	Excel.h,
+	HCM4AMobileServiceStruct.h,
+	ErrorCodes.h,
+	Calculation.h,
+	MobileService.lay,
+	hcm4mfs.dli,
+	MobileService.h;
+
+mainconfig
+	"" = "GUI";
+

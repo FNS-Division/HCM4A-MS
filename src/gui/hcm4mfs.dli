@@ -1,0 +1,10 @@
+FN(void, HCM4AMobileServiceDLL, (int, int, double,\
+				double&, short&,\
+				short&, int &, double &, double &, double&,\
+				double&, double&, double&, double&,\
+				double&, double&, double&,\
+				double&, double&, double&, double&,\
+				double&, double&, double&,\
+				double&, double&, double&,\
+				double&, double&, double&, double&,\
+				double&, std::string& ))

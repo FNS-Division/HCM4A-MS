@@ -1,0 +1,32 @@
+target
+	DLL_Mobile.dll;
+
+library(WIN32) "kernel32 user32 advapi32 shell32 winmm";
+
+file
+	Dll\Antenna.h,
+	Dll\Antenna_correction.h,
+	Dll\Calc_direction.h,
+	Dll\Calc_distance.h,
+	Dll\CooConv.h,
+	Dll\Dh_calculation.h,
+	Dll\Dh_correction.h,
+	Dll\ErrorCodes.h,
+	Dll\Get_figure_FS_value.h,
+	Dll\Get_FS_from_figures.h,
+	Dll\HCM4AMobileServiceDLL.h,
+	Dll\HCM4AMobileServiceMain.h,
+	Dll\HCM4AMobileServiceStruct.h,
+	Dll\Line_calculation.h,
+	Dll\P_to_P_calculation.h,
+	Dll\Permissible_FS_calculation.h,
+	Dll\Point_info.h,
+	Dll\Position_of_mobile.h,
+	Dll\Profile.h,
+	Dll\TCA_correction_calculation.h,
+	DLL_Mobile.h,
+	DLL_Mobile.cpp;
+
+mainconfig
+	"" = "DLL";
+

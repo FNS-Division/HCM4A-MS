@@ -1,0 +1,3 @@
+#ifndef _HCM4AMobileService_HCM4AMobileServiceMain_h_
+#define _HCM4AMobileService_HCM4AMobileServiceMain_h_
+#endif
